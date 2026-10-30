@@ -1,7 +1,7 @@
 
 # Customer Churn Prediction
 # Exploratory Data Analysis
-# Run with: python src/explore_data.py
+
 
 import os
 import pandas as pd
