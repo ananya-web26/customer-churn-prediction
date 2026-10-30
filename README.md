@@ -1,24 +1,35 @@
+## Customer Churn Prediction-in development
 
+### About the Project
 
-**Currently in development** 
+Customer Churn Prediction is a machine learning project that aims to predict whether a customer is likely to leave a telecommunications company based on their service usage, account information, subscription details, and billing history.
 
-### Completed
-- [x] Project setup and Python virtual environment
-- [x] Dataset selection and loading using Pandas
-- [x] Exploratory data inspection
-- [x] Identified and handled missing `TotalCharges` values
-- [x] Separated features (`X`) and target (`y`)
+The project uses the IBM Telco Customer Churn dataset to explore customer behaviour, identify patterns associated with churn, and build a classification model that can help businesses understand and identify customers at risk of leaving.
 
-### In Progress
-- [ ] Train-test split
-- [ ] Encoding categorical features
-- [ ] Training and evaluating the first machine learning model
-- [ ] Comparing model performance
+### How It Works
 
-### Planned
-- [ ] Build a prediction API using FastAPI
-- [ ] Develop a React + Tailwind CSS frontend
-- [ ] Connect the frontend to the ML model
-- [ ] Deploy the application
+1. **Data Collection:** Uses the IBM Telco Customer Churn dataset containing customer information and churn records.
+2. **Data Cleaning:** Handles missing values, converts numerical data into appropriate formats, and removes unnecessary columns.
+3. **Data Preprocessing:** Separates numerical and categorical features, scales numerical values using StandardScaler, and encodes categorical values using OneHotEncoder.
+4. **Data Splitting:** Divides the dataset into training and testing sets to evaluate the model on unseen data.
+5. **Model Training:** Uses Logistic Regression as the initial classification algorithm to predict customer churn.
+6. **Model Evaluation:** Evaluates predictions using accuracy and a confusion matrix.
 
-*This project is being built step by step as I learn machine learning and model deployment.*
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- XGBoost (planned for experimentation)
+
+### Future Plans
+
+- Experiment with additional machine learning algorithms.
+- Improve churn detection using precision, recall, and F1-score.
+- Save the trained model for reuse.
+- Build a backend using FastAPI.
+- Develop an interactive frontend using React and Tailwind CSS.
+- Deploy the application so users can enter customer details and receive churn predictions.
