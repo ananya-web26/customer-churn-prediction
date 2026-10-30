@@ -1,7 +1,7 @@
 
 # Customer Churn Prediction
 # Model Training and Evaluation
-# Run with: python src/train_model.py
+
 
 import os
 import joblib
