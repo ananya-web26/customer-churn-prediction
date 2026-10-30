@@ -1,4 +1,5 @@
-## Customer Churn Prediction-in development
+## Customer Churn Prediction
+(in development)
 
 ### About the Project
 
